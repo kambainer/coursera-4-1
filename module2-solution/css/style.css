@@ -1,7 +1,8 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
 }
 
 .row {
@@ -10,8 +11,8 @@
 
 h1 {
   color: #FC4349;
-  font-family: Open Sans, Arial, Helvetica, sans-serif;
   text-align: center;
+  font-size: 1.75em;
 }
 
 .title_pos{
@@ -28,6 +29,7 @@ h1 {
 	text-align: center;
 	font-style: italic;
   	font-weight: bold;
+  	font-size: 1.25em;
 
 }
 .contentbox{
@@ -40,7 +42,7 @@ h1 {
 .sectiontext{
 	position: absolute;
 	/*top: 1.5em;*/
-	padding: 1.2em .8em .8em .8em;
+	padding: 1.4em .8em .8em .8em;
 }
 
 #fightclub {
