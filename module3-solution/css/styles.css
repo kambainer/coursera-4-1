@@ -1,0 +1,44 @@
+body {
+    background-color: #EFECCA;
+}
+/* head */
+#BrandName {
+    color: #002F2F;
+}
+.navbar-default {
+    background-color: #E6E2AF;
+    margin-bottom: 0px;
+}
+/* menu */
+li.menu-item {
+    background-color: #A7A37E;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #002F2F;
+}
+.navbar-default .navbar-nav>li>a:hover, a:active{
+    color: #046380;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #046380;
+}
+
+/* body */
+.body-section {
+    height: 500px;
+    background-color: oldlace;
+    margin-bottom: 15px;
+    padding: 10px 10px 5px 5px;
+}
+.h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*end of body*/
