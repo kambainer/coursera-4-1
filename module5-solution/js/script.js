@@ -81,7 +81,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // *** start ***
 // On first load, show home view
 showLoading("#main-content");
-console.log("loading has been shown. Sending request for:" + allCategoriesUrl);
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   buildAndShowHomeHTML, // Callback func, response handler ***** <---- TODO: STEP 1: Substitute [...] ******
